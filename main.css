@@ -1,0 +1,65 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+     background:rgb(223, 222, 219) ;
+     font-family:'Times New Roman', Times, serif;
+ }
+
+ .menu{
+     opacity: .6;
+     background-color: rgb(7, 7, 7);
+     width: 100%;
+     font-size: 1.4rem;
+     display: flex;
+     justify-content: center;
+     
+ }
+
+ ul{
+     list-style-type: none;
+     padding: 0;
+     margin: 0;
+ }
+
+ .menu ul li{
+     display: inline-block;
+ }
+
+ .menu a{
+     text-decoration: none;
+     color: snow;
+     justify-content: space-around;
+     padding: 20px;
+     display: flex;
+     
+ }
+
+ .menu a:hover{
+     color:rgb(41, 245, 252);  
+     background-color:rgba(122, 166, 214, 0.425);
+ }
+ #head{
+     font-family: serif;
+     font-style:oblique;
+     font-size: 30px;
+     float: 60%;
+     position: ;
+ }
+ #logo{
+     
+    border-style: none;
+    display: block;
+    text-indent: -999em;
+    width: 60px;
+    height: 60px;
+    left: 42px;
+    float: left;
+    clear: none;
+    position: relative;
+    overflow: hidden;
+ }
