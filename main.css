@@ -40,26 +40,63 @@
  }
 
  .menu a:hover{
-     color:rgb(41, 245, 252);  
-     background-color:rgba(122, 166, 214, 0.425);
+     color:rgb(41, 245, 252);      
  }
- #head{
-     font-family: serif;
-     font-style:oblique;
-     font-size: 30px;
-     float: 60%;
-     position: ;
- }
- #logo{
-     
-    border-style: none;
-    display: block;
-    text-indent: -999em;
-    width: 60px;
-    height: 60px;
-    left: 42px;
-    float: left;
-    clear: none;
-    position: relative;
-    overflow: hidden;
- }
+
+ 
+ header{
+    background-color: #F9F8FC;
+  }
+
+  #logo{
+    margin: auto;
+    height: 250px;
+    width: 320px;
+    text-align: center;
+  }
+
+  #logo h1{
+     font-family: 'Pacifico', cursive;
+     font-size: 58px;
+   }
+   footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(156, 153, 153);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    
+}
+
+.socials li{
+    margin: 0 3px;
+}
+
+.socials a{
+    border: 1.1px solid rgb(250, 238, 238);
+    padding: 0px;
+    border-radius: 50%;
+}
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:black;
+}
