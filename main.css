@@ -6,7 +6,7 @@
     padding: 0;
 }
  body{
-     background:rgb(223, 222, 219) ;
+    background-color: #F9F8FC;
      font-family:'Times New Roman', Times, serif;
  }
 
@@ -96,7 +96,18 @@
     border-radius: 50%;
 }
 h3{
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     color:black;
+}
+pre{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+}
+.about{
+    float: left;
+    border-radius: 50%;
 }
