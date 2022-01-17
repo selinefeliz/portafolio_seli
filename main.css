@@ -9,7 +9,7 @@
     background-color: #F9F8FC;
      font-family:'Times New Roman', Times, serif;
  }
-
+/* Barra de navegacion*/
  .menu{
      opacity: .6;
      background-color: rgb(7, 7, 7);
@@ -43,7 +43,7 @@
      color:rgb(41, 245, 252);      
  }
 
- 
+/*  header y logo */
  header{
     background-color: #F9F8FC;
   }
@@ -59,18 +59,14 @@
      font-family: 'Pacifico', cursive;
      font-size: 58px;
    }
-   footer{
-     
-    padding: 22% 0% 0% 5%;
-    height:500px;
-
-    background: rgb(214, 212, 212);
-   
-    color: #fff;
+  /*  footer */
+   .footer {  
+       padding-top: 30px;
+   background-color: #706a6a;
 }
 
 .footer-content h3{
-    
+   
     font-size: 2.1rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -82,7 +78,7 @@
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
-    
+   
 }
 
 .socials li{
@@ -90,7 +86,7 @@
 }
 
 .socials a{
-    border: 1.1px solid rgb(24, 23, 23);
+    border: 1.1px solid rgb(226, 222, 222);
     padding: 0px;
     border-radius: 50%;
 }
@@ -104,14 +100,16 @@ pre{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 20px;
-    color:rgb(212, 47, 47);
+    color:rgb(241, 231, 231);
 }
+/* Contenedor */
 .conteiner{
     width: 100%;
-    height: 95vh;
+    height: 120vh;
     background-color: azure;
     background-size: cover;
 }
+/* about */
 .about{
     position: absolute;
     left: 13%;
@@ -157,13 +155,15 @@ button:hover{
     color: rgb(255, 250, 250);
     background-color: black;
 }
+/* foto de perfil */
 .perfil{
     height: 230px;
     position: absolute;
-    bottom: 60px;
+    bottom: 150px;
     left: 70%;
     transform: translateX(-70%);
 }
+/* div Bussinesss */
 .Bussinesss{
     width: 80%;
     height: 350px;
@@ -244,24 +244,22 @@ font-weight: bold;
 background-color: black;
 
 }
+/* servicios */
 .services{
     height: 400px;
-    background-color: rgb(255, 250, 250);
-    padding: 2% 0% 0% 5%;
-    
-    
+    background-color: rgb(218, 212, 212);
+    padding: 2% 0% 0% 7%;   
 }
 .services{
     width: 1200px;
     margin: 50px 90px;
 }
 .services-text p:nth-child(1) {
-    
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-weight: bold;
-        color: #0c0b0b;
-        font-size: 50px;
-        line-height: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-weight: bold;
+    color: #0c0b0b;
+     font-size: 50px;
+    line-height: 0px;
 }
 .services-text p:nth-child(2){
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -276,8 +274,7 @@ background-color: black;
     height: 320px;
     background-repeat: no-repeat;
     background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.3);
-    background-color: #3b3434;
+    box-shadow: 2px 2px 12px rgba(0,0,0, 0.3);   
     
 }
 .box-container div  {
@@ -285,9 +282,7 @@ background-color: black;
      justify-content: space-between;
      width: 350px;
      height: 300px;
-   
-       
-     
+ 
 }
 .box-container pre{
     color: black;
@@ -325,5 +320,34 @@ transform: translateY(-50%);
 }
 .social-icons a:hover{
     background-color: rgb(202, 202, 202);
+}
+/* formulario */
+.contactos{
+    width: 45%;
+box-shadow: 0px 5px 15px 0px rgba(16, 144, 158, 0.65);
+background-color: var(--wi);
+padding: 2rem;
+border-radius: 2rem;
+margin: 1% auto 5% auto;
+display: flex;
+}
+.contactos div{
+     font-size: 17px;
+     font-family:cursive;
+}
+form{
+    width: 1050px;
+    height: 200px;
+    margin: 1% auto 1px auto;        
+    display: flex;
+    align-items: center;
+}
+#tittle{
+    font-size: 35px;
+    color: rgb(13, 46, 107);
+}
+fieldset{
+    
+    border-style: none;
 }
  
