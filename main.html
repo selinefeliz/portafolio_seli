@@ -104,18 +104,31 @@
   <section class="form-weap">
 <section class="contact_info">
   <img src="Imagenes/per.ico" alt="" width="40px" height="40px">
-  <h2>INFORMACION <br> DE CONBTACTO</h2>
-</section>
+  <h2 class="in">INFORMACION <br> DE CONCTACTO</h2>
+
 <section class="info_items">
-  <p><img src="Imagenes/mail.ico" alt=""> info.contacto@gmail.com</p>
+  <p><img src="Imagenes/mail.ico" alt="" class="img1"> info.contacto@gmail.com</p>
   <p><img src="Imagenes/phone.ico" alt=""> +1(809)-456-7788</p>
-</section>
-  </section>
+</section></section>
+ 
 
   <form action="" class="form_contact">
     <h2>Envia un mensaje</h2>
     <div class="user_info">
-      <label for="names">Nombres</label></div>
+      <label for="names">Nombres *</label>
+      <input type="text" id="names">
+    
+      <label for="names">Telefono *</label>
+      <input type="text" id="phone">
+
+      <label for="names">Correo Electronico *</label>
+      <input type="text" id="email">
+    
+      <label for="names">Mesaje  *</label>
+       <textarea  id="mesaje"></textarea>
+
+       <input type="button" value="Enviar" id="btnsend">
+    </div> </section>
   </form>
       
 </main>
