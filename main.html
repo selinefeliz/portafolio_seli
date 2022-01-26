@@ -7,153 +7,131 @@
     <title>Primera Web</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-   </head>
-<body >
-    
-  <header>
-    <div id="logo">
-       <img src="logo.PNG" alt="seli">
-       <h1>Seline Feliz</h1>
-    </header>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
+  </head>
+<body>
+  <div class="todo">
+      <!-- HEADER -->
+     <div class="contenedor">
+         <header>
+        <div id="logo">
+        <img src="logo.PNG" >
+        <h1>Seline Feliz</h1>
+        </div>
+        </header>
     </div>
-   <!--  menu -->
-<nav class="menu">
-    <ul>   
-         <li><a href="home">Home</a></li>
-         <li><a href="about">About me</a></li>
-         <li><a href="bussines">Bussines</a></li>
-         <li><a href="login">Login</a></li>
-         <li><a href="contact">Contact me</a></li>
-         <li><a href="projects">Projects</a></li>
-         <li><a href="school">Education</a></li>
-        </ul>
-</nav>
+    <!-- MENU -->
+    <div class="menuu">
+        <nav class="menu">
+            <ul>   
+                 <li><a href="home">Home</a></li>
+                 <li><a href="about">About me</a></li>
+                 <li><a href="bussines">Bussines</a></li>
+                 <li><a href="login">Login</a></li>
+                 <li><a href="contact">Contact me</a></li>
+                 <li><a href="projects">Projects</a></li>
+                 <li><a href="school">Education</a></li>
+                </ul>
+        </nav>
+        </div>
+<!-- CONTENIDOS CENTRALES -->
 <main>
 
-   <div class="conteiner">
-<!-- aboutme -->
-  <div class="about">        
-            <p class="H">Hello</p>
-            <p class="strong">I am Seline Feliz </p>
-            <p class="text">Actually I`m informatic student</p>
-            <button class="btnMe">More Information</button>
-          </div>
-          <div class="slides">
-          <img src="Imagenes/fg.jpeg" alt="" class="perfil">
-          </div>
+    <div class="conteiner">
+ <!-- aboutme -->
+   <div class="about">        
+             <p class="H">Hello</p>
+             <p class="strong">I am Seline Feliz </p>
+             <p class="text">Actually I`m informatic student</p>
+             <button class="btnMe">More Information</button>
+           </div>
 
-         <!--  bussiness -->
+           <div class="slides">
+           <img src="Imagenes/fg.jpeg" alt="" class="perfil">
+           </div>
+
+      <!--  bussiness -->
     <div class="Bussinesss">
-      <img src="Imagenes/insoft.jpg" alt="">
-     <div class="text">
-      <p>Bussiness</p>
-      <div class="web">
-        <p>Web Designer </p>
-      <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds,
-         pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website 
-         or web pages. It and can mean working on a brand new website or updating an already existing site. </p>
-      <button>See projects</button></div> 
-     <div class="video"> <p> Video Creator </p>
-      <p>Video Editors are generally responsible for editing and assembling recorded raw material into a suitable, finished product ready for broadcasting. The material may include camera footage, dialogue, sound effects, graphics and special effects.</p>
-     <button>Web projects</button>
+        <img src="Imagenes/insoft.jpg" alt="">
+       <div class="text">
+        <p>Bussiness</p>
+        <div class="web">
+          <p>Web Designer </p>
+        <p>Web designers plan, create and code internet sites and web pages, many of which combine text with sounds,
+           pictures, graphics and video clips. A web designer is responsible for creating the design and layout of a website 
+           or web pages. It and can mean working on a brand new website or updating an already existing site. </p>
+        <button>See projects</button></div> 
+       <div class="video"> <p> Video Creator </p>
+        <p>Video Editors are generally responsible for editing and assembling recorded raw material into a suitable, finished product ready for broadcasting. The material may include camera footage, dialogue, sound effects, graphics and special effects.</p>
+       <button>Web projects</button>
+        </div>
       </div>
-     
-    </div>
-    </div>
-<!-- services -->
-    <div class="services">  
-      <div class="services-text">
-        <p>Services</p>
-        <p>Services required</p>
       </div>
+      </div>
+<!-- FORMULARIO -->
+      <div class="formulario">
 
-      <!--box-->
-      <div class="box-container">
-       <pre> *Boxes                            *Education                            *School</pre> 
-      <div class="box1">
-       </div> 
-      <div class="box2"></div>
-      <div class="box3"></div>
- 
-      </div>
-      </div>
-    </div>
-      </div>
+        <section class="form-weap">
+            <section class="contact_info">
+              <section class="info_title">
+              <img src="Imagenes/per.ico" alt="" id="img1" height="140px" >
+              <h2 >INFORMACIÓN <br> DE CONTACTO</h2>
+            </section>
 
-      <section class="contactos"> 
-     <h2 id="tittle">Contacto</h2> 
-        <form>
-         
-          <fieldset>    
-             <div> 
-               <label>Nombre</label>
-                <input type="text" placeholder="Nombre"> </div> 
+            <section class="info_items">
+              <p><img src="Imagenes/mail.ico" alt=""  height="30px"> info.contacto@gmail.com</p>
+              <p><img src="Imagenes/phone.ico" alt="" height="30px"> +1(809)-456-7788</p>
+            </section>
+        </section>
+             
+            
+              <form class="form_contact">
+               
+                <div class="user_info"> 
+                  <h2>Envia un mensaje</h2>
+                  <label for="names">Nombres *</label>
+                  <input type="text" id="names">
                 
-                <div> 
-                  <label>Telefono</label>
-                   <input type="tel" placeholder="Telefono"> </div>
-                    <div> <label>Email</label> 
-                      <input type="email" placeholder="Email"> </div>
-                       <div> <label>Mensaje</label> 
-                        <textarea></textarea> </div>
-                         <div> <input type="submit" value="Enviar"> </div>
-                         </fieldset> 
-                        </form> </section>
-
-      --formulario de prueba
-  <section class="form-weap">
-<section class="contact_info">
-  <img src="Imagenes/per.ico" alt="" width="40px" height="40px">
-  <h2 class="in">INFORMACION <br> DE CONCTACTO</h2>
-
-<section class="info_items">
-  <p><img src="Imagenes/mail.ico" alt="" class="img1"> info.contacto@gmail.com</p>
-  <p><img src="Imagenes/phone.ico" alt=""> +1(809)-456-7788</p>
-</section></section>
- 
-
-  <form action="" class="form_contact">
-    <h2>Envia un mensaje</h2>
-    <div class="user_info">
-      <label for="names">Nombres *</label>
-      <input type="text" id="names">
-    
-      <label for="names">Telefono *</label>
-      <input type="text" id="phone">
-
-      <label for="names">Correo Electronico *</label>
-      <input type="text" id="email">
-    
-      <label for="names">Mesaje  *</label>
-       <textarea  id="mesaje"></textarea>
-
-       <input type="button" value="Enviar" id="btnsend">
-    </div> </section>
-  </form>
-      
-</main>
-<!-- footer -->
- <footer class="footer">
-      <h3>Social Media</h3>
-
-      <ul class="socials">
-       <li><a href=""><img src="Imagenes/facebook.ico" alt="" width="40px" height="40px"></a></li>
-       <li><a href=""><img src="Imagenes/instagram.ico" alt="" width="40px" height="40px"></a></li>
-       <li><a href=""><img src="Imagenes/twitter.ico" alt="" width="40px" height="40px"></a></li>
-       <li><a href=""><img src="Imagenes/what.ico" alt="" width="40px" height="40px"></a></li>
-       <li><a href=""><img src="Imagenes/telegram.ico" alt="" width="40px" height="40px"></a></li>
-       <li><a href=""><img src="Imagenes/pinterest.ico" alt="" width="40px" height="40px"></a></li>
-     </ul>
-   <pre><i id="seli">       Seline Feliz   </i></pre>
-   
- </footer> 
+                  <label for="names">Telefono *</label>
+                  <input type="text" id="phone">
+            
+                  <label for="names">Correo Electronico *</label>
+                  <input type="text" id="email">
+                
+                  <label for="names">Mesaje  *</label>
+                   <textarea  id="mesaje"></textarea>
+            
+                   <input type="button" value="Enviar" id="btnsend">
+                 </div>
+              </form>
+                </section>  
+      </div>
+</main> 
  <!-- barra lateral de redes sociales -->
-<div class="social-icons">
-  <a href=""><i class="fab-facebook-f"><img src="Imagenes/FB_icon-icons.com_65484.ico" alt="" width="35px" height="35px"></i></a>
-  <a href=""><i class="fab fa_twitter"><img src="Imagenes/tweetdeck_twiiter_bird_19180.ico" alt="" width="35px" height="35px"></i></a>
-  <a href=""><i class="instagram"><img src="Imagenes/instagram_f_icon-icons.com_65485.ico" alt="" width="35px" height="35px"></i></a>
-  <a href=""><i class="youtube"><img src="Imagenes/YOUTUBE_icon-icons.com_65487.ico" alt="" width="35px" height="35px"></i></a>
+ <div class="social-icons">
+    <a href=""><i class="fab-facebook-f"><img src="Imagenes/FB_icon-icons.com_65484.ico" alt="" width="35px" height="35px"></i></a>
+    <a href=""><i class="fab fa_twitter"><img src="Imagenes/tweetdeck_twiiter_bird_19180.ico" alt="" width="35px" height="35px"></i></a>
+    <a href=""><i class="instagram"><img src="Imagenes/instagram_f_icon-icons.com_65485.ico" alt="" width="35px" height="35px"></i></a>
+    <a href=""><i class="youtube"><img src="Imagenes/YOUTUBE_icon-icons.com_65487.ico" alt="" width="35px" height="35px"></i></a>
+  </div>
+<!-- footer -->
+<div class="footer">
+<footer class="footer">
+    <h3>Social Media</h3>
+
+    <ul class="socials">
+     <li><a href=""><img src="Imagenes/facebook.ico" alt="" width="40px" height="40px"></a></li>
+     <li><a href=""><img src="Imagenes/instagram.ico" alt="" width="40px" height="40px"></a></li>
+     <li><a href=""><img src="Imagenes/twitter.ico" alt="" width="40px" height="40px"></a></li>
+     <li><a href=""><img src="Imagenes/what.ico" alt="" width="40px" height="40px"></a></li>
+     <li><a href=""><img src="Imagenes/telegram.ico" alt="" width="40px" height="40px"></a></li>
+     <li><a href=""><img src="Imagenes/pinterest.ico" alt="" width="40px" height="40px"></a></li>
+   </ul>
+ <pre><i id="seli">       Seline Feliz   </i></pre>
+ 
+</footer>
 </div>
-   
+
+</div>
 </body>
 </html>

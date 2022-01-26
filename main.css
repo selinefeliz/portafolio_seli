@@ -9,6 +9,40 @@
     background-color: #F9F8FC;
      font-family:'Times New Roman', Times, serif;
  }
+/* ADAPTADOR A CUALQUIER DISPOSITIVO */
+ @media screen and (max-width:880px) {
+     .menu{
+         flex-direction: column;
+         height: 220px;
+         justify-content: space-evenly;
+     }
+     header{
+        flex-direction: column;
+        height: 180px;
+        justify-content: space-evenly;
+     }
+     .conteiner{
+        flex-direction: column;
+        height: 200px;
+        
+        width: 10px;
+        justify-content: space-evenly;
+        
+     }
+     .Bussinesss{
+         
+        height: 800px;
+        justify-content: space-evenly;
+     }
+     .text{
+        flex-direction: column;
+        height: 200px;
+        width: 10px;
+        justify-content: space-evenly;
+     }
+     
+ }
+
 /* Barra de navegacion*/
  .menu{
      opacity: .6;
@@ -17,7 +51,7 @@
      font-size: 1.4rem;
      display: flex;
      justify-content: center;
-     
+      
  }
 
  ul{
@@ -46,6 +80,8 @@
 /*  header y logo */
  header{
     background-color: #F9F8FC;
+    width: 100%;
+    box-sizing: border-box;
   }
 
   #logo{
@@ -59,14 +95,14 @@
      font-family: 'Pacifico', cursive;
      font-size: 58px;
    }
+
   /*  footer */
    .footer {  
-       padding-top: 30px;
+    padding-top: 30px;
    background-color: #706a6a;
 }
 
 .footer-content h3{
-   
     font-size: 2.1rem;
     font-weight: 500;
     text-transform: capitalize;
@@ -166,7 +202,7 @@ button:hover{
 /* div Bussinesss */
 .Bussinesss{
     width: 80%;
-    height: 350px;
+    height: 490px;
     background-color: rgba(255, 253, 253, 0.945);
     border-radius: 20px;
     box-shadow: 2px 2px 12px rgba(0,0,0.2);
@@ -177,7 +213,7 @@ button:hover{
     align-items: center;
 }
 .Bussinesss img{
-    height: 250px;
+    height: 290px;
 }
 .text{
     width: 550px;
@@ -244,61 +280,7 @@ font-weight: bold;
 background-color: black;
 
 }
-/* servicios */
-.services{
-    height: 400px;
-    background-color: rgb(218, 212, 212);
-    padding: 2% 0% 0% 7%;   
-}
-.services{
-    width: 1200px;
-    margin: 50px 90px;
-}
-.services-text p:nth-child(1) {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     font-weight: bold;
-    color: #0c0b0b;
-     font-size: 50px;
-    line-height: 0px;
-}
-.services-text p:nth-child(2){
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bold;
-    color: rgb(36, 35, 35);
-    font-size: 15px;
-    line-height: 55px;
-}
- 
-.box1 ,.box2, .box3{
-    width: 300px;
-    height: 320px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-shadow: 2px 2px 12px rgba(0,0,0, 0.3);   
-    
-}
-.box-container div  {
-    display:inline-flex;
-     justify-content: space-between;
-     width: 350px;
-     height: 300px;
- 
-}
-.box-container pre{
-    color: black;
-    font-size: 30px;
-}
- 
-.box1{
-    background-image: url(Imagenes/box.png);
-    
-}
-.box2{
-    background-image: url(Imagenes/box2.jpg);
-}
-.box3{
-    background-image: url(Imagenes/box3.png);
-}
+/* <!-- barra lateral de redes sociales --> */
 .social-icons{
 position: fixed;
 top: 50%;
@@ -321,44 +303,18 @@ transform: translateY(-50%);
 .social-icons a:hover{
     background-color: rgb(202, 202, 202);
 }
+ 
+ 
 /* formulario */
-.contactos{
-    width: 45%;
-box-shadow: 0px 5px 15px 0px rgba(16, 144, 158, 0.65);
-background-color: var(--wi);
-padding: 2rem;
-border-radius: 2rem;
-margin: 1% auto 5% auto;
-display: flex;
-}
-.contactos div{
-     font-size: 17px;
-     font-family:cursive;
-}
-form{
-    width: 1050px;
-    height: 200px;
-    margin: 1% auto 1px auto;        
-    display: flex;
-    align-items: center;
-}
-#tittle{
-    font-size: 35px;
-    color: rgb(13, 46, 107);
-}
-fieldset{
-    
-    border-style: none;
-}
 .form-weap{
      width: 1040px;
-     height: 330px;
+     height: 430px;
      margin: 50px auto;
      display: flex;
      background: #fff;
      border-radius: 10px;
      overflow: hidden;
-     box-shadow: 0px 0px 20px rgba(0,0, 0, 0.2);
+     box-shadow: 0px 5px 15px 0px rgba(0,0, 0, 0.2);
  }
  .contact_info::before{
      content: '';
@@ -373,7 +329,7 @@ fieldset{
      opacity: 0.6;
  }
  .contact_info{
-     width: 38%;
+     width: 50%;
      position: relative;
      display: flex;
      flex-direction: column;
@@ -383,25 +339,92 @@ fieldset{
      background-size: cover;
      background-position: center center ;
  }
- .contact_info, .in{
-     color:#fff;
- }
+ 
  .info_title,
 .info_items{
     position: relative;
     z-index: 2;
-    color: #fff;
+    color: rgb(219, 213, 213);
+    font-size: 25px;
 }
 
 .info_title{
-  margin-bottom: 60px;
+  margin-bottom: 9px;
 }
-.img1{
-    font-size: 260px;
+.info_title h2{
+    font-size: 30px;
+    font-family: cursive;
+    color: #f5eded;
+}
+ #img1{
+      
     display: block;
-    text-align: center;
-    margin-bottom: 15px;
+    padding-left: 60px;
+     margin-bottom: 7px;
 }
- form.form_contact{
-      width: 62%;      
+/*formulario*/
+ .form_contact{
+      width: 62%; 
+      padding: 10px 40px; 
+      
  }
+  
+ .form_contact h2{
+     font-size: 50px;
+    font-weight: 600;
+    color: #81bcc7;
+      
+}
+
+form.form_contact .user_info{
+    display: flex;
+    flex-direction:column;
+    
+}
+.form_contact label{
+    font-weight: 900;
+}
+:focus{
+    outline: none;
+}
+.form_contact input,
+.form_contact textarea{
+    width: 100%;
+    padding: 2px 0px 5px;
+    margin-top: 2px;
+    border: none;
+    border-bottom: 2px solid #d1d1dd;
+     
+
+    font-family:sans-serif;
+    color: #5a5a5a;
+    font-size: 14px;
+    font-weight: 400;
+}
+.form_contact textarea{
+max-width: 100%;
+min-width: 100%;
+max-height: 90px;
+ 
+}
+
+.form_contact input[type="button"]{
+    width: 180px;
+    background: #4b637e;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    align-self: flex-end;
+
+    font-family:sans-serif;
+    color: #f0eaea;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.form_contact input[type="button"]:hover{
+   background-color: #eee2e2; 
+   color: #000000;
+}
